@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.type-3028 .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.type-3028 .services-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+}
+.type-3028 .services-grid .service-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.type-3028 .services-grid .service-item:hover .title {
+  color: aqua;
+}
+.type-3028 .services-grid .service-item .title {
+  color: #3d3d3d;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 16px;
+  transition: color 0.5s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-3028 .services-grid .service-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-3028 .services-grid .service-item h3 {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #999;
+  transition: color 0.5s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 768px) {
+  .type-3028 .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
